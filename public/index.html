@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="/javascripts/jquery.js"></script>
+  <script src="/javascripts/handlebars.js"></script>
+  <script src="https://kit.fontawesome.com/bb016cb25d.js" crossorigin="anonymous"></script>
+  <link src="contactsTemplate.hbs"></link>
+  <link rel="stylesheet" href="/stylesheets/style.css"></link>
+</head>
+<body>
+  <header>
+    <h1>Contact Manager</h1>
+  </header>
+  <div id="mainContainer">
+    <div id="subHeadContainer" class="divs">
+      <div id="addContainer"><button id="addBtn" class="addButtons">Add Contact</button></div>
+      <div id="searchContainer"><input id="search" type="text" placeholder="Search"></input></div>
+    </div>
+    <div id="noContactBox" class="divs">
+      <h3>There are no contacts</h3>
+      <button class="addButtons" id="noContactAddBtn">Add Contact</button>
+    </div>
+    <div class="contactContainer"></div>
+  </div>
+  <div id="createContactBox">
+    <h1 class="formHeader">Create Contact</h1>
+    <form>
+    <div class="name">
+      <label for="name" class="formLabel">Full name:</label>
+      <input id="name" type="text" class="formInput"><p class="nameError errorMsg">Please enter the name field</p></input>
+    </div>
+    <br>
+    <div class="email">
+      <label for="email" class="formLabel">Email address:</label>
+      <input id="email" type="email" class="formInput"></input>
+      <p class="emailError errorMsg">Please enter a valid email.</p>
+    </div>
+    <br>
+    <div class="phone">
+      <label for="phone" class="formLabel">Telephone number:</label>
+      <input id="phone" type="text" class="formInput"></input>
+      <p class="phoneError errorMsg">Please enter the phone field</p>
+    </div>
+    <div class="tags">
+        <label class="formLabel"></label>
+      <div class="checkBoxGrp">
+        <div>
+          <input id="engineering" type="checkbox"></input>
+          <label for="engineering">Engineering</label>
+        </div>
+
+        <div>
+          <input id="sales" type="checkbox"></input>
+          <label for="sales">Sales</label>
+        </div>
+
+        <div>
+          <input id="marketing" type="checkbox"></input>
+          <label for="marketing">Marketing</label>
+        </div>
+
+        <div>
+          <input id="friend" type="checkbox"></input>
+          <label for="friend">Friend</label>
+        </div>
+      </div>
+      <div class="createTag">
+        <div class="alignDiv"></div>
+        <label for="chooseTag">Create tag:</label>
+        <input id="chooseTag" type="text"></input>
+        <button class="addTagBtn">Add tag</button>
+      </div>
+   </div>
+    <div class="alignDiv"></div>
+    <div id="btnContainer">
+      <button type="submit" id="submitBtn">Submit</button>
+      <button id="cancel">Cancel</button>
+    </div>
+    </form>
+  </div>
+  <footer>
+    <p>Developed by Kim Ramirez at <a href="http://www.launchschool.com">Launch School</a></p>
+  </footer>
+  <script src="/javascripts/script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+

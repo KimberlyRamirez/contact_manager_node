@@ -1,0 +1,22 @@
+<div class="contacts">
+  <h3>{{full_name}}</h3>
+  <dt class="dtPhone"> Phone Number:
+    <dd class="ddPhoneValue">{{phone_number}}</dd>
+  </dt>
+  <dt class="dtEmail">Email:
+    <dd class="ddEmailValue">{{email}}</dd>
+  </dt>
+  {{!-- <div class="contactTagContainer"> --}}
+  <dt class="dtTagValue">Tags:</dt>
+  {{#if tags}}
+      {{#each tags}}
+        <a href="/">{{this}}</a>
+      {{/each}}
+    {{else}}
+      <small class="tagValue">No tags selected</small>
+  {{/if}}
+  <div class="editDeleteBtns">
+    <button class="editBtn"><i class="fa-solid fa-pencil"></i>Edit</button>
+    <button class="deleteBtn"><i class="fa-solid fa-trash-can"></i>Delete</button>
+  </div>
+</div>

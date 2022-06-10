@@ -1,0 +1,238 @@
+* {margin: 0px; padding: 0px;}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  padding: 25px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #614889;
+  background-image: linear-gradient(
+    206deg,
+    rgba(151, 37, 186, 1) 12%,
+    rgba(97, 72, 137, 1) 90%
+  );
+  color: white;
+}
+
+header p {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+footer {
+  width: 85%;
+  margin:auto;
+  margin-top: 20px;
+  text-align: center;
+  border-top: 1px solid rgb(234, 230, 230);
+  font-size: 14px;
+}
+
+.divs {
+  border-radius: 4px;
+  border: 1px solid #e3e3e3;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
+  background-color: rgb(247, 243, 243);
+  text-align: center;
+}
+
+#subHeadContainer  {
+  padding: 19px;
+  margin: auto;
+  width: 85%;
+}
+
+#addContainer {
+  display: inline-block;
+  width: 48%;
+  vertical-align: middle;
+}
+
+#searchContainer {
+  display: inline-block;
+  width: 48%;
+  vertical-align: middle;
+}
+
+#search {
+  width: 50%;
+  vertical-align: top;
+  font-size: 14px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
+}
+
+#noContactBox {
+  display: none;
+  margin: auto;
+  margin-top: 25px;
+  width: 80%;
+  padding: 35px;
+}
+
+footer p {
+  padding: 20px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.addButtons, .editBtn, .deleteBtn, #btnContainer>button, .allContactsBtn {
+  padding: 10px 16px;
+  border-radius: 4px;
+  border: 1px solid #a077e1;
+  background: linear-gradient(
+    206deg,
+    rgba(173, 31, 191, 1) 12%,
+    rgba(97, 72, 137, 1) 90%
+  );
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+.formLabel {
+  display: inline-block;
+  width: 33%;
+  text-align: right;
+  padding-right: 10px;
+  color: black;
+}
+
+#createContactBox {
+  display: none;
+  width: 85%;
+  margin: auto;
+  background-color: white;
+}
+
+.formHeader {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.formInput {
+  width: 35%;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  line-height: 2rem;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#btnContainer {
+  display: inline-flex;
+  margin-top: 20px;
+  width: 35%;
+}
+
+#submitBtn, #cancel {
+  flex: auto;
+}
+
+#submitBtn {
+  margin-right: 20px;
+}
+
+form {
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.errorMsg{
+  display: none;
+  transform: translateX(33.3%);
+  font-size: 12px;
+  color: red;
+}
+
+.alignDiv {
+  display: inline-flex;
+  width: 33%;
+}
+ 
+.checkBoxGrp {
+  display: inline-block;
+  width: 35%;
+}
+
+.tags {
+  margin-top: 15px;
+  color: #614889
+}
+
+.createTagBox {
+  margin-top: 10px;
+  color: #614889
+}
+
+.addTagBtn {
+  width: 85px;
+  border-radius: 4px;
+  border: 1px solid #a077e1;
+  background: linear-gradient(
+    206deg,
+    rgba(173, 31, 191, 1) 12%,
+    rgba(97, 72, 137, 1) 90%
+  );
+  color: white;
+  text-align: center;
+}
+
+.ddPhoneValue, .ddEmailValue {
+  margin-bottom: 10px;
+}
+
+.editBtn, .deleteBtn {
+  font-size: 14px;
+}
+
+.contactContainer {
+  display: none;
+  width: 85%;
+  vertical-align: bottom;
+  font-size: 16px;
+  margin-top: 10px;
+  transform: translateX(9%);
+}
+
+.valuesContainer {
+  font-size: 14px;
+}
+
+.contacts {
+  display: inline-block;
+  width: 25%;
+}
+
+i {
+  padding-right: 2px;
+}
+
+.editFormContainer h1 {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.allContactsContainer {
+  margin-bottom: 15px;
+}
+
