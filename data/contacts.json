@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "full_name": "Kim Ramirez",
+    "phone_number": "123-123-1234",
+    "email": "kim.ram27@gmail.com",
+    "tags": [
+      "engineering"
+    ],
+    "id": 1
+  },
+  {
+    "full_name": "David Atwood",
+    "phone_number": "123-123-1234",
+    "email": "at@email.com",
+    "tags": [
+      "friend"
+    ],
+    "id": 2
+  },
+  {
+    "full_name": "Malachi Wheat",
+    "phone_number": "123-1234-1234",
+    "email": "wheat@gmail.com",
+    "tags": [
+      "sales"
+    ],
+    "id": 3
+  },
+  {
+    "full_name": "Leif Atwood",
+    "phone_number": "123-1234-1234",
+    "email": "leif@gmail.com",
+    "tags": [
+      "friend"
+    ],
+    "id": 4
+  }
+]
